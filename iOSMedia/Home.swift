@@ -13,7 +13,11 @@ struct Home: View {
         Dictionary(grouping: landMarkData, by: {$0.category.rawValue})
     }
     var body: some View {
-        NavigationView{Text("Hello World!!!").navigationBarTitle(Text("Featured"))}
+        NavigationView{List{
+            ForEach(categories.keys.sorted(),id: \.self){key in
+                CategoryRow(categoryName: key, items: self.categories[key]!)
+            }
+        }.navigationBarTitle(Text("Featured"))}
     }
 }
 

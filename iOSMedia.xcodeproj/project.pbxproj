@@ -11,6 +11,9 @@
 		AE492ACA248D17890063C93A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE492AC9248D17890063C93A /* Model.swift */; };
 		AE6D1231248DD286002C3DFC /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1230248DD286002C3DFC /* Badge.swift */; };
 		AE8657C8248DE71100C5AE77 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8657C7248DE71100C5AE77 /* BadgeBackground.swift */; };
+		AE8657CA248DE94D00C5AE77 /* BadgeSymble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8657C9248DE94D00C5AE77 /* BadgeSymble.swift */; };
+		AE8657CC248DEAB600C5AE77 /* RotatedBadgeSymble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8657CB248DEAB600C5AE77 /* RotatedBadgeSymble.swift */; };
+		AE8657CE248E064E00C5AE77 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8657CD248E064E00C5AE77 /* CategoryRow.swift */; };
 		AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681B824245AAA009748E4 /* AppDelegate.swift */; };
 		AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681BA24245AAA009748E4 /* SceneDelegate.swift */; };
 		AEA681BD24245AAA009748E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681BC24245AAA009748E4 /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 		AE492AC9248D17890063C93A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AE6D1230248DD286002C3DFC /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		AE8657C7248DE71100C5AE77 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		AE8657C9248DE94D00C5AE77 /* BadgeSymble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymble.swift; sourceTree = "<group>"; };
+		AE8657CB248DEAB600C5AE77 /* RotatedBadgeSymble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymble.swift; sourceTree = "<group>"; };
+		AE8657CD248E064E00C5AE77 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		AEA681B524245AAA009748E4 /* iOSMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA681B824245AAA009748E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA681BA24245AAA009748E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				AE492AC9248D17890063C93A /* Model.swift */,
 				AE6D1230248DD286002C3DFC /* Badge.swift */,
 				AE8657C7248DE71100C5AE77 /* BadgeBackground.swift */,
+				AE8657C9248DE94D00C5AE77 /* BadgeSymble.swift */,
+				AE8657CB248DEAB600C5AE77 /* RotatedBadgeSymble.swift */,
+				AE8657CD248E064E00C5AE77 /* CategoryRow.swift */,
 			);
 			path = iOSMedia;
 			sourceTree = "<group>";
@@ -152,7 +161,10 @@
 			files = (
 				AE492ACA248D17890063C93A /* Model.swift in Sources */,
 				AE6D1231248DD286002C3DFC /* Badge.swift in Sources */,
+				AE8657CE248E064E00C5AE77 /* CategoryRow.swift in Sources */,
 				AE8657C8248DE71100C5AE77 /* BadgeBackground.swift in Sources */,
+				AE8657CC248DEAB600C5AE77 /* RotatedBadgeSymble.swift in Sources */,
+				AE8657CA248DE94D00C5AE77 /* BadgeSymble.swift in Sources */,
 				AEA681BD24245AAA009748E4 /* ViewController.swift in Sources */,
 				AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */,
 				AE492AC8248D15FD0063C93A /* Home.swift in Sources */,
