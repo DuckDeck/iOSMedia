@@ -3,25 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE492AC8248D15FD0063C93A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE492AC7248D15FD0063C93A /* Home.swift */; };
+		AE492ACA248D17890063C93A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE492AC9248D17890063C93A /* Model.swift */; };
+		AE6D1231248DD286002C3DFC /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1230248DD286002C3DFC /* Badge.swift */; };
+		AE8657C8248DE71100C5AE77 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8657C7248DE71100C5AE77 /* BadgeBackground.swift */; };
 		AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681B824245AAA009748E4 /* AppDelegate.swift */; };
 		AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681BA24245AAA009748E4 /* SceneDelegate.swift */; };
 		AEA681BD24245AAA009748E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681BC24245AAA009748E4 /* ViewController.swift */; };
 		AEA681C224245AAE009748E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA681C124245AAE009748E4 /* Assets.xcassets */; };
 		AEA681C524245AAE009748E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA681C324245AAE009748E4 /* LaunchScreen.storyboard */; };
-		AEA681CE24245BCE009748E4 /* GrandView in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681CD24245BCE009748E4 /* GrandView */; };
-		AEA681D124245BF4009748E4 /* GrandModel in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681D024245BF4009748E4 /* GrandModel */; };
-		AEA681D424245C10009748E4 /* GrandStore in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681D324245C10009748E4 /* GrandStore */; };
-		AEA681D724245C36009748E4 /* GrandTime in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681D624245C36009748E4 /* GrandTime */; };
-		AEA681DA24245F50009748E4 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681D924245F50009748E4 /* IQKeyboardManagerSwift */; };
-		AEA681DE2424A472009748E4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681DD2424A472009748E4 /* SnapKit */; };
-		AEA681E12424A867009748E4 /* KRProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = AEA681E02424A867009748E4 /* KRProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE492AC7248D15FD0063C93A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AE492AC9248D17890063C93A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AE6D1230248DD286002C3DFC /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		AE8657C7248DE71100C5AE77 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		AEA681B524245AAA009748E4 /* iOSMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA681B824245AAA009748E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA681BA24245AAA009748E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,13 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA681E12424A867009748E4 /* KRProgressHUD in Frameworks */,
-				AEA681DA24245F50009748E4 /* IQKeyboardManagerSwift in Frameworks */,
-				AEA681D724245C36009748E4 /* GrandTime in Frameworks */,
-				AEA681CE24245BCE009748E4 /* GrandView in Frameworks */,
-				AEA681DE2424A472009748E4 /* SnapKit in Frameworks */,
-				AEA681D124245BF4009748E4 /* GrandModel in Frameworks */,
-				AEA681D424245C10009748E4 /* GrandStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +68,10 @@
 				AEA681C124245AAE009748E4 /* Assets.xcassets */,
 				AEA681C324245AAE009748E4 /* LaunchScreen.storyboard */,
 				AEA681C624245AAE009748E4 /* Info.plist */,
+				AE492AC7248D15FD0063C93A /* Home.swift */,
+				AE492AC9248D17890063C93A /* Model.swift */,
+				AE6D1230248DD286002C3DFC /* Badge.swift */,
+				AE8657C7248DE71100C5AE77 /* BadgeBackground.swift */,
 			);
 			path = iOSMedia;
 			sourceTree = "<group>";
@@ -95,13 +93,6 @@
 			);
 			name = iOSMedia;
 			packageProductDependencies = (
-				AEA681CD24245BCE009748E4 /* GrandView */,
-				AEA681D024245BF4009748E4 /* GrandModel */,
-				AEA681D324245C10009748E4 /* GrandStore */,
-				AEA681D624245C36009748E4 /* GrandTime */,
-				AEA681D924245F50009748E4 /* IQKeyboardManagerSwift */,
-				AEA681DD2424A472009748E4 /* SnapKit */,
-				AEA681E02424A867009748E4 /* KRProgressHUD */,
 			);
 			productName = iOSMedia;
 			productReference = AEA681B524245AAA009748E4 /* iOSMedia.app */;
@@ -132,14 +123,6 @@
 			);
 			mainGroup = AEA681AC24245AAA009748E4;
 			packageReferences = (
-				AEA681CC24245BCE009748E4 /* XCRemoteSwiftPackageReference "GrandView" */,
-				AEA681CF24245BF4009748E4 /* XCRemoteSwiftPackageReference "GrandModel" */,
-				AEA681D224245C10009748E4 /* XCRemoteSwiftPackageReference "GrandStore" */,
-				AEA681D524245C36009748E4 /* XCRemoteSwiftPackageReference "GrandTime" */,
-				AEA681D824245F50009748E4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
-				AEA681DB242463C8009748E4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				AEA681DC2424A472009748E4 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				AEA681DF2424A867009748E4 /* XCRemoteSwiftPackageReference "KRProgressHUD" */,
 			);
 			productRefGroup = AEA681B624245AAA009748E4 /* Products */;
 			projectDirPath = "";
@@ -167,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE492ACA248D17890063C93A /* Model.swift in Sources */,
+				AE6D1231248DD286002C3DFC /* Badge.swift in Sources */,
+				AE8657C8248DE71100C5AE77 /* BadgeBackground.swift in Sources */,
 				AEA681BD24245AAA009748E4 /* ViewController.swift in Sources */,
 				AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */,
+				AE492AC8248D15FD0063C93A /* Home.swift in Sources */,
 				AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,111 +347,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		AEA681CC24245BCE009748E4 /* XCRemoteSwiftPackageReference "GrandView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DuckDeck/GrandView.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		AEA681CF24245BF4009748E4 /* XCRemoteSwiftPackageReference "GrandModel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DuckDeck/GrandModel.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.2;
-			};
-		};
-		AEA681D224245C10009748E4 /* XCRemoteSwiftPackageReference "GrandStore" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DuckDeck/GrandStore.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		AEA681D524245C36009748E4 /* XCRemoteSwiftPackageReference "GrandTime" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DuckDeck/GrandTime.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		AEA681D824245F50009748E4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.5.5;
-			};
-		};
-		AEA681DB242463C8009748E4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.13.2;
-			};
-		};
-		AEA681DC2424A472009748E4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-		AEA681DF2424A867009748E4 /* XCRemoteSwiftPackageReference "KRProgressHUD" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krimpedance/KRProgressHUD";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.4.4;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		AEA681CD24245BCE009748E4 /* GrandView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681CC24245BCE009748E4 /* XCRemoteSwiftPackageReference "GrandView" */;
-			productName = GrandView;
-		};
-		AEA681D024245BF4009748E4 /* GrandModel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681CF24245BF4009748E4 /* XCRemoteSwiftPackageReference "GrandModel" */;
-			productName = GrandModel;
-		};
-		AEA681D324245C10009748E4 /* GrandStore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681D224245C10009748E4 /* XCRemoteSwiftPackageReference "GrandStore" */;
-			productName = GrandStore;
-		};
-		AEA681D624245C36009748E4 /* GrandTime */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681D524245C36009748E4 /* XCRemoteSwiftPackageReference "GrandTime" */;
-			productName = GrandTime;
-		};
-		AEA681D924245F50009748E4 /* IQKeyboardManagerSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681D824245F50009748E4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
-		};
-		AEA681DD2424A472009748E4 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681DC2424A472009748E4 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		AEA681E02424A867009748E4 /* KRProgressHUD */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AEA681DF2424A867009748E4 /* XCRemoteSwiftPackageReference "KRProgressHUD" */;
-			productName = KRProgressHUD;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AEA681AD24245AAA009748E4 /* Project object */;
 }
