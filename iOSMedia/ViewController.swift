@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     @objc func toNext() {
-        let vc = UIHostingController(rootView: Home())
+        let vc = UIHostingController(rootView: Home().environmentObject(UserData()))
         navigationController?.pushViewController(vc, animated: true)
     }
 
