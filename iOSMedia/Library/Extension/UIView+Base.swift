@@ -207,6 +207,54 @@ extension UIView{
         }
         return vc
     }
+    
+    @objc func viewContainingController() -> UIViewController? {
+        
+        var nextResponder: UIResponder? = self
+        
+        repeat {
+            nextResponder = nextResponder?.next
+            
+            if let viewController = nextResponder as? UIViewController {
+                return viewController
+            }
+            
+        } while nextResponder != nil
+        
+        return nil
+    }
+    
+    
+    @objc func topMostController() -> UIViewController? {
+        
+        var controllersHierarchy = [UIViewController]()
+
+        if var topController = window?.rootViewController {
+            controllersHierarchy.append(topController)
+
+            while let presented = topController.presentedViewController {
+                
+                topController = presented
+
+                controllersHierarchy.append(presented)
+            }
+            
+            var matchController: UIResponder? = viewContainingController()
+
+            while let mController = matchController as? UIViewController, controllersHierarchy.contains(mController) == false {
+                
+                repeat {
+                    matchController = matchController?.next
+
+                } while matchController != nil && matchController is UIViewController == false
+            }
+            
+            return matchController as? UIViewController
+            
+        } else {
+            return viewContainingController()
+        }
+    }
 }
 
 

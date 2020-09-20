@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIWindow{
-        open func topMostController() -> UIViewController {
+    open override func topMostController() -> UIViewController {
              var topViewController = rootViewController!
             while topViewController.presentedViewController != nil {
                 topViewController = topViewController.presentedViewController!

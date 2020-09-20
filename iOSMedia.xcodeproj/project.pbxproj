@@ -53,6 +53,43 @@
 		AEC39C9D2517073D00529886 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39C882517073D00529886 /* UITableView+Extension.swift */; };
 		AEC39CA525170B3E00529886 /* OpenCVHandle.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CA225170B3E00529886 /* OpenCVHandle.mm */; };
 		AEC39CA625170B3E00529886 /* OpenCVImageRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CA325170B3E00529886 /* OpenCVImageRecognitionViewController.swift */; };
+		AEC39CAB251725D100529886 /* FFMpegMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CAA251725D100529886 /* FFMpegMenu.swift */; };
+		AEC39CD52517263B00529886 /* AVParseHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CB02517263B00529886 /* AVParseHandler.mm */; };
+		AEC39CD62517263B00529886 /* AudioFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CB22517263B00529886 /* AudioFileHandler.m */; };
+		AEC39CD72517263B00529886 /* AudioDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CB32517263B00529886 /* AudioDecoder.mm */; };
+		AEC39CD82517263B00529886 /* PreviewView.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CB42517263B00529886 /* PreviewView.mm */; };
+		AEC39CD92517263B00529886 /* AudioQueueCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CB52517263B00529886 /* AudioQueueCaptureManager.m */; };
+		AEC39CDA2517263B00529886 /* VideoDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CBB2517263B00529886 /* VideoDecoder.mm */; };
+		AEC39CDB2517263B00529886 /* SortFrameHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CBC2517263B00529886 /* SortFrameHandler.m */; };
+		AEC39CDC2517263B00529886 /* FFmpegVideoDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CBE2517263B00529886 /* FFmpegVideoDecoder.mm */; };
+		AEC39CDD2517263B00529886 /* ShadowAudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC02517263B00529886 /* ShadowAudioPlayerView.swift */; };
+		AEC39CDE2517263B00529886 /* ShadowDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC12517263B00529886 /* ShadowDataManager.swift */; };
+		AEC39CDF2517263B00529886 /* ShadowAudioPlayerBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC22517263B00529886 /* ShadowAudioPlayerBack.swift */; };
+		AEC39CE02517263B00529886 /* ShadowVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC32517263B00529886 /* ShadowVideoPlayerViewController.swift */; };
+		AEC39CE12517263B00529886 /* ShadowPlayBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC42517263B00529886 /* ShadowPlayBack.swift */; };
+		AEC39CE22517263B00529886 /* ShadowRangeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC52517263B00529886 /* ShadowRangeManager.swift */; };
+		AEC39CE32517263B00529886 /* ShadowPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC62517263B00529886 /* ShadowPlayer.swift */; };
+		AEC39CE42517263B00529886 /* ShadowVideoPlayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC72517263B00529886 /* ShadowVideoPlayControlView.swift */; };
+		AEC39CE52517263B00529886 /* ShadowVideoPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC82517263B00529886 /* ShadowVideoPlayView.swift */; };
+		AEC39CE62517263B00529886 /* ShadowDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CC92517263B00529886 /* ShadowDownloader.swift */; };
+		AEC39CE72517263B00529886 /* ShadowVideoControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CCA2517263B00529886 /* ShadowVideoControlView.swift */; };
+		AEC39CE82517263B00529886 /* CaptureSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CCC2517263B00529886 /* CaptureSessionCoordinator.swift */; };
+		AEC39CE92517263B00529886 /* CaptureSessionAssetWriterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CCD2517263B00529886 /* CaptureSessionAssetWriterCoordinator.swift */; };
+		AEC39CEA2517263B00529886 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CCE2517263B00529886 /* CameraModel.swift */; };
+		AEC39CEB2517263B00529886 /* FocusFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CCF2517263B00529886 /* FocusFrameView.swift */; };
+		AEC39CEC2517263B00529886 /* AssetWriterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CD02517263B00529886 /* AssetWriterCoordinator.swift */; };
+		AEC39CED2517263B00529886 /* ShadowEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CD22517263B00529886 /* ShadowEncoder.swift */; };
+		AEC39CEE2517263B00529886 /* ShadowCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CD32517263B00529886 /* ShadowCameraModel.swift */; };
+		AEC39CEF2517263B00529886 /* ShadowCameraHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CD42517263B00529886 /* ShadowCameraHandle.swift */; };
+		AEC39CF92517286700529886 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC39CF82517285700529886 /* libbz2.1.0.tbd */; };
+		AEC39CFC251728C100529886 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC39CFB251728B600529886 /* libiconv.2.4.0.tbd */; };
+		AEC39D042517292100529886 /* PullLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39D002517292000529886 /* PullLiveViewController.swift */; };
+		AEC39D052517292100529886 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39D012517292000529886 /* HeartView.swift */; };
+		AEC39D062517292100529886 /* LivePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39D022517292000529886 /* LivePreview.swift */; };
+		AEC39D072517292100529886 /* PushLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39D032517292000529886 /* PushLiveViewController.swift */; };
+		AEC39D0A251729E000529886 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC39D09251729E000529886 /* IJKMediaFramework.framework */; };
+		AEC39D0D2517318700529886 /* VideoBoxDecodeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39D0C2517318700529886 /* VideoBoxDecodeVideoViewController.swift */; };
+		AEC39D102517319500529886 /* AudioDecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39D0F2517319500529886 /* AudioDecoderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -214,6 +251,53 @@
 		AEC39CA225170B3E00529886 /* OpenCVHandle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVHandle.mm; sourceTree = "<group>"; };
 		AEC39CA325170B3E00529886 /* OpenCVImageRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVImageRecognitionViewController.swift; sourceTree = "<group>"; };
 		AEC39CA425170B3E00529886 /* OpenCVHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVHandle.h; sourceTree = "<group>"; };
+		AEC39CAA251725D100529886 /* FFMpegMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMpegMenu.swift; sourceTree = "<group>"; };
+		AEC39CAF2517263B00529886 /* AudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDecoder.h; sourceTree = "<group>"; };
+		AEC39CB02517263B00529886 /* AVParseHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVParseHandler.mm; sourceTree = "<group>"; };
+		AEC39CB12517263B00529886 /* SortFrameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortFrameHandler.h; sourceTree = "<group>"; };
+		AEC39CB22517263B00529886 /* AudioFileHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileHandler.m; sourceTree = "<group>"; };
+		AEC39CB32517263B00529886 /* AudioDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioDecoder.mm; sourceTree = "<group>"; };
+		AEC39CB42517263B00529886 /* PreviewView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PreviewView.mm; sourceTree = "<group>"; };
+		AEC39CB52517263B00529886 /* AudioQueueCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueCaptureManager.m; sourceTree = "<group>"; };
+		AEC39CB62517263B00529886 /* VideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDecoder.h; sourceTree = "<group>"; };
+		AEC39CB72517263B00529886 /* FFmpegVideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpegVideoDecoder.h; sourceTree = "<group>"; };
+		AEC39CB82517263B00529886 /* PreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
+		AEC39CB92517263B00529886 /* AVParseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVParseHandler.h; sourceTree = "<group>"; };
+		AEC39CBA2517263B00529886 /* AudioFileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileHandler.h; sourceTree = "<group>"; };
+		AEC39CBB2517263B00529886 /* VideoDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoDecoder.mm; sourceTree = "<group>"; };
+		AEC39CBC2517263B00529886 /* SortFrameHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortFrameHandler.m; sourceTree = "<group>"; };
+		AEC39CBD2517263B00529886 /* AudioQueueCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueCaptureManager.h; sourceTree = "<group>"; };
+		AEC39CBE2517263B00529886 /* FFmpegVideoDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FFmpegVideoDecoder.mm; sourceTree = "<group>"; };
+		AEC39CC02517263B00529886 /* ShadowAudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowAudioPlayerView.swift; sourceTree = "<group>"; };
+		AEC39CC12517263B00529886 /* ShadowDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowDataManager.swift; sourceTree = "<group>"; };
+		AEC39CC22517263B00529886 /* ShadowAudioPlayerBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowAudioPlayerBack.swift; sourceTree = "<group>"; };
+		AEC39CC32517263B00529886 /* ShadowVideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		AEC39CC42517263B00529886 /* ShadowPlayBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowPlayBack.swift; sourceTree = "<group>"; };
+		AEC39CC52517263B00529886 /* ShadowRangeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowRangeManager.swift; sourceTree = "<group>"; };
+		AEC39CC62517263B00529886 /* ShadowPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowPlayer.swift; sourceTree = "<group>"; };
+		AEC39CC72517263B00529886 /* ShadowVideoPlayControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowVideoPlayControlView.swift; sourceTree = "<group>"; };
+		AEC39CC82517263B00529886 /* ShadowVideoPlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowVideoPlayView.swift; sourceTree = "<group>"; };
+		AEC39CC92517263B00529886 /* ShadowDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowDownloader.swift; sourceTree = "<group>"; };
+		AEC39CCA2517263B00529886 /* ShadowVideoControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowVideoControlView.swift; sourceTree = "<group>"; };
+		AEC39CCC2517263B00529886 /* CaptureSessionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionCoordinator.swift; sourceTree = "<group>"; };
+		AEC39CCD2517263B00529886 /* CaptureSessionAssetWriterCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionAssetWriterCoordinator.swift; sourceTree = "<group>"; };
+		AEC39CCE2517263B00529886 /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		AEC39CCF2517263B00529886 /* FocusFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusFrameView.swift; sourceTree = "<group>"; };
+		AEC39CD02517263B00529886 /* AssetWriterCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetWriterCoordinator.swift; sourceTree = "<group>"; };
+		AEC39CD22517263B00529886 /* ShadowEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowEncoder.swift; sourceTree = "<group>"; };
+		AEC39CD32517263B00529886 /* ShadowCameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCameraModel.swift; sourceTree = "<group>"; };
+		AEC39CD42517263B00529886 /* ShadowCameraHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCameraHandle.swift; sourceTree = "<group>"; };
+		AEC39CF12517271600529886 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		AEC39CF42517275600529886 /* log4cplus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = log4cplus.h; sourceTree = "<group>"; };
+		AEC39CF82517285700529886 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		AEC39CFB251728B600529886 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		AEC39D002517292000529886 /* PullLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullLiveViewController.swift; sourceTree = "<group>"; };
+		AEC39D012517292000529886 /* HeartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		AEC39D022517292000529886 /* LivePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePreview.swift; sourceTree = "<group>"; };
+		AEC39D032517292000529886 /* PushLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushLiveViewController.swift; sourceTree = "<group>"; };
+		AEC39D09251729E000529886 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		AEC39D0C2517318700529886 /* VideoBoxDecodeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBoxDecodeVideoViewController.swift; sourceTree = "<group>"; };
+		AEC39D0F2517319500529886 /* AudioDecoderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDecoderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +311,7 @@
 				AEC39C8D2517073D00529886 /* libavformat.a in Frameworks */,
 				AEBFE9C225162419003418A4 /* CoreMedia.framework in Frameworks */,
 				AEC39C892517073D00529886 /* libx264.a in Frameworks */,
+				AEC39D0A251729E000529886 /* IJKMediaFramework.framework in Frameworks */,
 				AEC39C902517073D00529886 /* libswscale.a in Frameworks */,
 				AEBFEA8925162B7A003418A4 /* GrandTime in Frameworks */,
 				AEC39C8B2517073D00529886 /* libavfilter.a in Frameworks */,
@@ -235,6 +320,8 @@
 				AEC39C8C2517073D00529886 /* libavcodec.a in Frameworks */,
 				AEBFEA8E25162D07003418A4 /* SnapKit in Frameworks */,
 				AEC39C8E2517073D00529886 /* libavdevice.a in Frameworks */,
+				AEC39CFC251728C100529886 /* libiconv.2.4.0.tbd in Frameworks */,
+				AEC39CF92517286700529886 /* libbz2.1.0.tbd in Frameworks */,
 				AEC39C8F2517073D00529886 /* libswresample.a in Frameworks */,
 				AEBFEA8225162B01003418A4 /* KingfisherSwiftUI in Frameworks */,
 			);
@@ -274,8 +361,9 @@
 				AEBFE9C425162438003418A4 /* Metal */,
 				AEBFE9BA2516239E003418A4 /* Opencv */,
 				AEC39CA82517257C00529886 /* FFMpeg */,
-				AEBFE9B22516236C003418A4 /* iOSMedia-Bridging-Header.h */,
+				AEC39CFF251728FD00529886 /* Live */,
 				AEBFE9AC25161EA0003418A4 /* Home.swift */,
+				AEBFE9B22516236C003418A4 /* iOSMedia-Bridging-Header.h */,
 			);
 			path = iOSMedia;
 			sourceTree = "<group>";
@@ -283,10 +371,12 @@
 		AEBFE9A025161DF6003418A4 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				AEC39CAD2517263A00529886 /* Media */,
 				AEC39C7C2517073D00529886 /* Extension */,
 				AEC39BF72517073D00529886 /* fat-x264 */,
 				AEC39BFD2517073D00529886 /* ffmpeg_ios */,
 				AEC39C7B2517073D00529886 /* opencv2.framework */,
+				AEC39D09251729E000529886 /* IJKMediaFramework.framework */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -294,6 +384,8 @@
 		AEBFE9B02516233A003418A4 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				AEC39CF42517275600529886 /* log4cplus.h */,
+				AEC39CF12517271600529886 /* Singleton.h */,
 				AEBFEA9025162DEA003418A4 /* GrandCue */,
 				AEBFE9B12516235F003418A4 /* opencv */,
 				AEBFEA8425162B24003418A4 /* Tool.swift */,
@@ -327,6 +419,8 @@
 		AEBFE9BD25162403003418A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEC39CFB251728B600529886 /* libiconv.2.4.0.tbd */,
+				AEC39CF82517285700529886 /* libbz2.1.0.tbd */,
 				AEBFE9C125162419003418A4 /* CoreMedia.framework */,
 				AEBFE9BE25162403003418A4 /* AVFoundation.framework */,
 			);
@@ -611,8 +705,96 @@
 		AEC39CA82517257C00529886 /* FFMpeg */ = {
 			isa = PBXGroup;
 			children = (
+				AEC39D0F2517319500529886 /* AudioDecoderViewController.swift */,
+				AEC39D0C2517318700529886 /* VideoBoxDecodeVideoViewController.swift */,
+				AEC39CAA251725D100529886 /* FFMpegMenu.swift */,
 			);
 			path = FFMpeg;
+			sourceTree = "<group>";
+		};
+		AEC39CAD2517263A00529886 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39CAE2517263B00529886 /* FFMpeg */,
+				AEC39CBF2517263B00529886 /* ShadowPlayer */,
+				AEC39CCB2517263B00529886 /* VideoRecord */,
+				AEC39CD12517263B00529886 /* ShadowCamera */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		AEC39CAE2517263B00529886 /* FFMpeg */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39CAF2517263B00529886 /* AudioDecoder.h */,
+				AEC39CB02517263B00529886 /* AVParseHandler.mm */,
+				AEC39CB12517263B00529886 /* SortFrameHandler.h */,
+				AEC39CB22517263B00529886 /* AudioFileHandler.m */,
+				AEC39CB32517263B00529886 /* AudioDecoder.mm */,
+				AEC39CB42517263B00529886 /* PreviewView.mm */,
+				AEC39CB52517263B00529886 /* AudioQueueCaptureManager.m */,
+				AEC39CB62517263B00529886 /* VideoDecoder.h */,
+				AEC39CB72517263B00529886 /* FFmpegVideoDecoder.h */,
+				AEC39CB82517263B00529886 /* PreviewView.h */,
+				AEC39CB92517263B00529886 /* AVParseHandler.h */,
+				AEC39CBA2517263B00529886 /* AudioFileHandler.h */,
+				AEC39CBB2517263B00529886 /* VideoDecoder.mm */,
+				AEC39CBC2517263B00529886 /* SortFrameHandler.m */,
+				AEC39CBD2517263B00529886 /* AudioQueueCaptureManager.h */,
+				AEC39CBE2517263B00529886 /* FFmpegVideoDecoder.mm */,
+			);
+			path = FFMpeg;
+			sourceTree = "<group>";
+		};
+		AEC39CBF2517263B00529886 /* ShadowPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39CC02517263B00529886 /* ShadowAudioPlayerView.swift */,
+				AEC39CC12517263B00529886 /* ShadowDataManager.swift */,
+				AEC39CC22517263B00529886 /* ShadowAudioPlayerBack.swift */,
+				AEC39CC32517263B00529886 /* ShadowVideoPlayerViewController.swift */,
+				AEC39CC42517263B00529886 /* ShadowPlayBack.swift */,
+				AEC39CC52517263B00529886 /* ShadowRangeManager.swift */,
+				AEC39CC62517263B00529886 /* ShadowPlayer.swift */,
+				AEC39CC72517263B00529886 /* ShadowVideoPlayControlView.swift */,
+				AEC39CC82517263B00529886 /* ShadowVideoPlayView.swift */,
+				AEC39CC92517263B00529886 /* ShadowDownloader.swift */,
+				AEC39CCA2517263B00529886 /* ShadowVideoControlView.swift */,
+			);
+			path = ShadowPlayer;
+			sourceTree = "<group>";
+		};
+		AEC39CCB2517263B00529886 /* VideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39CCC2517263B00529886 /* CaptureSessionCoordinator.swift */,
+				AEC39CCD2517263B00529886 /* CaptureSessionAssetWriterCoordinator.swift */,
+				AEC39CCE2517263B00529886 /* CameraModel.swift */,
+				AEC39CCF2517263B00529886 /* FocusFrameView.swift */,
+				AEC39CD02517263B00529886 /* AssetWriterCoordinator.swift */,
+			);
+			path = VideoRecord;
+			sourceTree = "<group>";
+		};
+		AEC39CD12517263B00529886 /* ShadowCamera */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39CD22517263B00529886 /* ShadowEncoder.swift */,
+				AEC39CD32517263B00529886 /* ShadowCameraModel.swift */,
+				AEC39CD42517263B00529886 /* ShadowCameraHandle.swift */,
+			);
+			path = ShadowCamera;
+			sourceTree = "<group>";
+		};
+		AEC39CFF251728FD00529886 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39D012517292000529886 /* HeartView.swift */,
+				AEC39D022517292000529886 /* LivePreview.swift */,
+				AEC39D002517292000529886 /* PullLiveViewController.swift */,
+				AEC39D032517292000529886 /* PushLiveViewController.swift */,
+			);
+			path = Live;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -702,30 +884,64 @@
 			files = (
 				AEC39C9A2517073D00529886 /* UIImage+Base.swift in Sources */,
 				AEC39C982517073D00529886 /* Foundation+Extension.swift in Sources */,
+				AEC39CEF2517263B00529886 /* ShadowCameraHandle.swift in Sources */,
+				AEC39CEA2517263B00529886 /* CameraModel.swift in Sources */,
 				AEBFEA9625162DEA003418A4 /* Toast.swift in Sources */,
 				AEBFEA5C251629EF003418A4 /* OpenCVDemoViewController.swift in Sources */,
+				AEC39CE42517263B00529886 /* ShadowVideoPlayControlView.swift in Sources */,
+				AEC39CE72517263B00529886 /* ShadowVideoControlView.swift in Sources */,
 				AEC39C922517073D00529886 /* UIImageView+Extension.swift in Sources */,
+				AEC39CAB251725D100529886 /* FFMpegMenu.swift in Sources */,
+				AEC39CD52517263B00529886 /* AVParseHandler.mm in Sources */,
 				AEC39C9B2517073D00529886 /* UIScrollView+Extension.swift in Sources */,
 				AEC39CA525170B3E00529886 /* OpenCVHandle.mm in Sources */,
 				AEBFEA8525162B24003418A4 /* Tool.swift in Sources */,
+				AEC39D062517292100529886 /* LivePreview.swift in Sources */,
+				AEC39D072517292100529886 /* PushLiveViewController.swift in Sources */,
+				AEC39CDA2517263B00529886 /* VideoDecoder.mm in Sources */,
 				AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */,
+				AEC39CDB2517263B00529886 /* SortFrameHandler.m in Sources */,
+				AEC39CD62517263B00529886 /* AudioFileHandler.m in Sources */,
 				AEC39C992517073D00529886 /* Number+Extension.swift in Sources */,
+				AEC39D052517292100529886 /* HeartView.swift in Sources */,
+				AEC39CDC2517263B00529886 /* FFmpegVideoDecoder.mm in Sources */,
 				AEC39C942517073D00529886 /* UIButton+Extension.swift in Sources */,
+				AEC39CDD2517263B00529886 /* ShadowAudioPlayerView.swift in Sources */,
+				AEC39CEB2517263B00529886 /* FocusFrameView.swift in Sources */,
+				AEC39CE92517263B00529886 /* CaptureSessionAssetWriterCoordinator.swift in Sources */,
 				AEBFEA5625162753003418A4 /* OpenCVMenu.swift in Sources */,
+				AEC39CD72517263B00529886 /* AudioDecoder.mm in Sources */,
+				AEC39CE82517263B00529886 /* CaptureSessionCoordinator.swift in Sources */,
+				AEC39CED2517263B00529886 /* ShadowEncoder.swift in Sources */,
 				AEC39C9C2517073D00529886 /* UIView+Base.swift in Sources */,
 				AEBFE9AD25161EA0003418A4 /* Home.swift in Sources */,
+				AEC39CDF2517263B00529886 /* ShadowAudioPlayerBack.swift in Sources */,
+				AEC39D102517319500529886 /* AudioDecoderViewController.swift in Sources */,
 				AEC39C972517073D00529886 /* UIViewController+Extension.swift in Sources */,
+				AEC39CE32517263B00529886 /* ShadowPlayer.swift in Sources */,
+				AEC39CD82517263B00529886 /* PreviewView.mm in Sources */,
+				AEC39CE02517263B00529886 /* ShadowVideoPlayerViewController.swift in Sources */,
+				AEC39D042517292100529886 /* PullLiveViewController.swift in Sources */,
+				AEC39CE62517263B00529886 /* ShadowDownloader.swift in Sources */,
+				AEC39D0D2517318700529886 /* VideoBoxDecodeVideoViewController.swift in Sources */,
+				AEC39CD92517263B00529886 /* AudioQueueCaptureManager.m in Sources */,
+				AEC39CE12517263B00529886 /* ShadowPlayBack.swift in Sources */,
 				AEBFE9B72516236D003418A4 /* opencvTool.mm in Sources */,
+				AEC39CE22517263B00529886 /* ShadowRangeManager.swift in Sources */,
 				AEBFEA9425162DEA003418A4 /* GandAlert.swift in Sources */,
 				AEC39C932517073D00529886 /* UIColor+Extension.swift in Sources */,
 				AEC39C9D2517073D00529886 /* UITableView+Extension.swift in Sources */,
+				AEC39CDE2517263B00529886 /* ShadowDataManager.swift in Sources */,
 				AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */,
 				AEC39C962517073D00529886 /* UIWindow+Base.swift in Sources */,
 				AEBFEA9E25165270003418A4 /* PorcessVideoViewController.swift in Sources */,
 				AEC39CA625170B3E00529886 /* OpenCVImageRecognitionViewController.swift in Sources */,
 				AEBFE9B82516236D003418A4 /* UIImage+OpenCV.mm in Sources */,
+				AEC39CE52517263B00529886 /* ShadowVideoPlayView.swift in Sources */,
+				AEC39CEC2517263B00529886 /* AssetWriterCoordinator.swift in Sources */,
 				AEBFEA59251627C0003418A4 /* OpenCVBaseViewController.swift in Sources */,
 				AEBFEA9525162DEA003418A4 /* GrandCue.swift in Sources */,
+				AEC39CEE2517263B00529886 /* ShadowCameraModel.swift in Sources */,
 				AEC39C952517073D00529886 /* UINavigationController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,6 +1089,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSMedia/Library",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/iOSMedia/Library/ffmpeg_ios/include";
 				INFOPLIST_FILE = iOSMedia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -905,6 +1122,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSMedia/Library",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/iOSMedia/Library/ffmpeg_ios/include";
 				INFOPLIST_FILE = iOSMedia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
