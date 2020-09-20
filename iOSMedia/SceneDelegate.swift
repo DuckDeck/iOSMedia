@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SwiftUI
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -19,9 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let sc = (scene as? UIWindowScene ) else { return }
         window = UIWindow(windowScene: sc)
-        let mainViewController = ViewController()
-        let rootNavigationController = UINavigationController(rootViewController: mainViewController)
-        window?.rootViewController = rootNavigationController
+        window?.rootViewController = UIHostingController(rootView: Home())
         window?.makeKeyAndVisible()
 
     }

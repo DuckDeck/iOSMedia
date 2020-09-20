@@ -2,26 +2,8 @@
   "object": {
     "pins": [
       {
-        "package": "GrandModel",
-        "repositoryURL": "https://github.com/DuckDeck/GrandModel.git",
-        "state": {
-          "branch": null,
-          "revision": "0e3344f84df10cdec4459b6c8bcfec8c302784d5",
-          "version": "2.0.2"
-        }
-      },
-      {
-        "package": "GrandStore",
-        "repositoryURL": "https://github.com/DuckDeck/GrandStore.git",
-        "state": {
-          "branch": null,
-          "revision": "41c79ba8e6cf63953fd46c78a8b892a8c86382e9",
-          "version": "2.0.0"
-        }
-      },
-      {
         "package": "GrandTime",
-        "repositoryURL": "https://github.com/DuckDeck/GrandTime.git",
+        "repositoryURL": "https://github.com/DuckDeck/GrandTime",
         "state": {
           "branch": null,
           "revision": "17d09d446773036e24bc6a9227a8c2d111cffa8a",
@@ -29,30 +11,12 @@
         }
       },
       {
-        "package": "GrandView",
-        "repositoryURL": "https://github.com/DuckDeck/GrandView.git",
-        "state": {
-          "branch": null,
-          "revision": "021a7523289dd03d5a0305c0c27961aa8016203c",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "IQKeyboardManagerSwift",
-        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager",
-        "state": {
-          "branch": null,
-          "revision": "b0f0a127cca6bb39378447baa2afff74123abd09",
-          "version": "6.5.5"
-        }
-      },
-      {
         "package": "Kingfisher",
-        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "repositoryURL": "https://github.com.cnpmjs.org/onevcat/Kingfisher",
         "state": {
           "branch": null,
-          "revision": "56075f629bc3915e1bfa876d175df67e1a7cbe3c",
-          "version": "5.13.2"
+          "revision": "0efb20f022501327f4028aa9bf7cd4a0d390bea0",
+          "version": "5.15.2"
         }
       },
       {
@@ -60,17 +24,17 @@
         "repositoryURL": "https://github.com/krimpedance/KRActivityIndicatorView.git",
         "state": {
           "branch": null,
-          "revision": "0d9f485bc706b1b36509be3a75cbc0727dcc0088",
-          "version": "3.0.4"
+          "revision": "0a0ae6bc05647f414a7bfc53ffeaf6248aad29dd",
+          "version": "3.0.5"
         }
       },
       {
         "package": "KRProgressHUD",
-        "repositoryURL": "https://github.com/krimpedance/KRProgressHUD",
+        "repositoryURL": "https://github.com.cnpmjs.org/krimpedance/KRProgressHUD",
         "state": {
           "branch": null,
-          "revision": "95d52f1ab31c1367a7eff988c7b049c05d696750",
-          "version": "3.4.4"
+          "revision": "05be7ebafca7e4068e14e9381ec56ab6201ee857",
+          "version": "3.4.5"
         }
       },
       {
