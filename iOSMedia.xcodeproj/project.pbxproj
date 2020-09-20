@@ -51,6 +51,8 @@
 		AEC39C9B2517073D00529886 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39C862517073D00529886 /* UIScrollView+Extension.swift */; };
 		AEC39C9C2517073D00529886 /* UIView+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39C872517073D00529886 /* UIView+Base.swift */; };
 		AEC39C9D2517073D00529886 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39C882517073D00529886 /* UITableView+Extension.swift */; };
+		AEC39CA525170B3E00529886 /* OpenCVHandle.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CA225170B3E00529886 /* OpenCVHandle.mm */; };
+		AEC39CA625170B3E00529886 /* OpenCVImageRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39CA325170B3E00529886 /* OpenCVImageRecognitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -209,6 +211,9 @@
 		AEC39C862517073D00529886 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
 		AEC39C872517073D00529886 /* UIView+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Base.swift"; sourceTree = "<group>"; };
 		AEC39C882517073D00529886 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		AEC39CA225170B3E00529886 /* OpenCVHandle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVHandle.mm; sourceTree = "<group>"; };
+		AEC39CA325170B3E00529886 /* OpenCVImageRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVImageRecognitionViewController.swift; sourceTree = "<group>"; };
+		AEC39CA425170B3E00529886 /* OpenCVHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVHandle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +314,7 @@
 		AEBFE9BA2516239E003418A4 /* Opencv */ = {
 			isa = PBXGroup;
 			children = (
+				AEC39CA125170B2F00529886 /* ImageRecognition */,
 				AEBFEA9D25165270003418A4 /* PorcessVideoViewController.swift */,
 				AEBFEA5B251629EF003418A4 /* OpenCVDemoViewController.swift */,
 				AEBFEA58251627C0003418A4 /* OpenCVBaseViewController.swift */,
@@ -591,6 +597,16 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		AEC39CA125170B2F00529886 /* ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				AEC39CA425170B3E00529886 /* OpenCVHandle.h */,
+				AEC39CA225170B3E00529886 /* OpenCVHandle.mm */,
+				AEC39CA325170B3E00529886 /* OpenCVImageRecognitionViewController.swift */,
+			);
+			path = ImageRecognition;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -682,6 +698,7 @@
 				AEBFEA5C251629EF003418A4 /* OpenCVDemoViewController.swift in Sources */,
 				AEC39C922517073D00529886 /* UIImageView+Extension.swift in Sources */,
 				AEC39C9B2517073D00529886 /* UIScrollView+Extension.swift in Sources */,
+				AEC39CA525170B3E00529886 /* OpenCVHandle.mm in Sources */,
 				AEBFEA8525162B24003418A4 /* Tool.swift in Sources */,
 				AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */,
 				AEC39C992517073D00529886 /* Number+Extension.swift in Sources */,
@@ -697,6 +714,7 @@
 				AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */,
 				AEC39C962517073D00529886 /* UIWindow+Base.swift in Sources */,
 				AEBFEA9E25165270003418A4 /* PorcessVideoViewController.swift in Sources */,
+				AEC39CA625170B3E00529886 /* OpenCVImageRecognitionViewController.swift in Sources */,
 				AEBFE9B82516236D003418A4 /* UIImage+OpenCV.mm in Sources */,
 				AEBFEA59251627C0003418A4 /* OpenCVBaseViewController.swift in Sources */,
 				AEBFEA9525162DEA003418A4 /* GrandCue.swift in Sources */,

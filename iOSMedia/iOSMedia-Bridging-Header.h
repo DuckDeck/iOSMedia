@@ -7,4 +7,5 @@
 #define bridge_h
 
 #import "opencvTool.h"
+#import "OpenCVHandle.h"
 #endif /* bridge_h */
