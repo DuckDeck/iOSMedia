@@ -16,7 +16,7 @@
 		AEBFE9B82516236D003418A4 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEBFE9B62516236D003418A4 /* UIImage+OpenCV.mm */; };
 		AEBFE9BF25162403003418A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFE9BE25162403003418A4 /* AVFoundation.framework */; };
 		AEBFE9C225162419003418A4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBFE9C125162419003418A4 /* CoreMedia.framework */; };
-		AEBFEA5625162753003418A4 /* openCVMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEA5525162753003418A4 /* openCVMenu.swift */; };
+		AEBFEA5625162753003418A4 /* OpenCVMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEA5525162753003418A4 /* OpenCVMenu.swift */; };
 		AEBFEA59251627C0003418A4 /* OpenCVBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEA58251627C0003418A4 /* OpenCVBaseViewController.swift */; };
 		AEBFEA5C251629EF003418A4 /* OpenCVDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEA5B251629EF003418A4 /* OpenCVDemoViewController.swift */; };
 		AEBFEA8025162B01003418A4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AEBFEA7F25162B01003418A4 /* Kingfisher */; };
@@ -70,7 +70,7 @@
 		AEBFE9B62516236D003418A4 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		AEBFE9BE25162403003418A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AEBFE9C125162419003418A4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		AEBFEA5525162753003418A4 /* openCVMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openCVMenu.swift; sourceTree = "<group>"; };
+		AEBFEA5525162753003418A4 /* OpenCVMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVMenu.swift; sourceTree = "<group>"; };
 		AEBFEA58251627C0003418A4 /* OpenCVBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVBaseViewController.swift; sourceTree = "<group>"; };
 		AEBFEA5B251629EF003418A4 /* OpenCVDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVDemoViewController.swift; sourceTree = "<group>"; };
 		AEBFEA8425162B24003418A4 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
@@ -273,8 +273,9 @@
 				AEA681C624245AAE009748E4 /* Info.plist */,
 				AEBFE9C425162438003418A4 /* Metal */,
 				AEBFE9BA2516239E003418A4 /* Opencv */,
-				AEBFE9AC25161EA0003418A4 /* Home.swift */,
+				AEC39CA82517257C00529886 /* FFMpeg */,
 				AEBFE9B22516236C003418A4 /* iOSMedia-Bridging-Header.h */,
+				AEBFE9AC25161EA0003418A4 /* Home.swift */,
 			);
 			path = iOSMedia;
 			sourceTree = "<group>";
@@ -318,7 +319,7 @@
 				AEBFEA9D25165270003418A4 /* PorcessVideoViewController.swift */,
 				AEBFEA5B251629EF003418A4 /* OpenCVDemoViewController.swift */,
 				AEBFEA58251627C0003418A4 /* OpenCVBaseViewController.swift */,
-				AEBFEA5525162753003418A4 /* openCVMenu.swift */,
+				AEBFEA5525162753003418A4 /* OpenCVMenu.swift */,
 			);
 			path = Opencv;
 			sourceTree = "<group>";
@@ -607,6 +608,13 @@
 			path = ImageRecognition;
 			sourceTree = "<group>";
 		};
+		AEC39CA82517257C00529886 /* FFMpeg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FFMpeg;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -703,7 +711,7 @@
 				AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */,
 				AEC39C992517073D00529886 /* Number+Extension.swift in Sources */,
 				AEC39C942517073D00529886 /* UIButton+Extension.swift in Sources */,
-				AEBFEA5625162753003418A4 /* openCVMenu.swift in Sources */,
+				AEBFEA5625162753003418A4 /* OpenCVMenu.swift in Sources */,
 				AEC39C9C2517073D00529886 /* UIView+Base.swift in Sources */,
 				AEBFE9AD25161EA0003418A4 /* Home.swift in Sources */,
 				AEC39C972517073D00529886 /* UIViewController+Extension.swift in Sources */,

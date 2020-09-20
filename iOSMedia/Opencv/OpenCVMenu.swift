@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct openCVMenu: View {
+struct OpenCVMenu: View {
     var body: some View {
        
             List{
@@ -25,6 +25,6 @@ struct openCVMenu: View {
 
 struct openCVMenu_Previews: PreviewProvider {
     static var previews: some View {
-        openCVMenu()
+        OpenCVMenu()
     }
 }
