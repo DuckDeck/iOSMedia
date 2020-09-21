@@ -15,7 +15,7 @@ struct FFMpegMenu: View {
                 NavigationLink("Audio Queue 音频解编码", destination: AudioDecoderDemo())
                
                 NavigationLink("VideoBox硬解码", destination: VideoBoxDecodeDemo())
-            }.navigationBarTitle(Text("OpenCV"))
+            }.navigationBarTitle(Text("FFMpeg"))
     }
 }
 

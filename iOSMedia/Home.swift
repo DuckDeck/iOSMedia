@@ -14,7 +14,7 @@ struct Home: View {
             List{
                
                 NavigationLink("OpenCV", destination: OpenCVMenu())
-                NavigationLink("FFMpeg", destination: OpenCVMenu())
+                NavigationLink("FFMpeg", destination: FFMpegMenu())
 
             }.navigationBarTitle(Text("iOS多媒体"))
         }

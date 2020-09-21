@@ -24,7 +24,7 @@
 {
     self = [super init];
     if (self) {
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"lbpcascade_frontalface.xml" ofType:nil];
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"lbpcascade_frontalface" ofType:@"xml"];
         cv::String fileName = [bundlePath cStringUsingEncoding:NSUTF8StringEncoding];
         
         BOOL isSuccessLoadFile = icon_cascade.load(fileName);

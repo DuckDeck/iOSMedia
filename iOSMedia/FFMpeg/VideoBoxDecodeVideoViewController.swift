@@ -46,7 +46,7 @@ class VideoBoxDecodeVideoViewController: UIViewController {
     }
     
     func startDecodeByVTSessionWithIsH265Data()  {
-        let path = Bundle.main.path(forResource: "test", ofType: "mp4")
+        let path = Bundle.main.path(forResource: "cxh", ofType: "mp4")
         let handle = AVParseHandler(path: path!)
         let decoder = VideoDecoder()
         decoder.delegate = self
@@ -62,7 +62,7 @@ class VideoBoxDecodeVideoViewController: UIViewController {
     }
     
     func startDecodeByFFmpegWithIsH265Data()  {
-        let path = Bundle.main.path(forResource: "test", ofType: "mp4")
+        let path = Bundle.main.path(forResource: "cxh", ofType: "mp4")
         let handle = AVParseHandler(path: path!)
         let decoder = FFmpegVideoDecoder(formatContext: handle.getFormatContext(), videoStreamIndex: handle.getVideoStreamIndex())
         decoder.delegate = self
