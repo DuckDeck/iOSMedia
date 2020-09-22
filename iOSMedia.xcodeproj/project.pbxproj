@@ -733,20 +733,20 @@
 			isa = PBXGroup;
 			children = (
 				AEC39CAF2517263B00529886 /* AudioDecoder.h */,
+				AEC39CB32517263B00529886 /* AudioDecoder.mm */,
+				AEC39CB92517263B00529886 /* AVParseHandler.h */,
 				AEC39CB02517263B00529886 /* AVParseHandler.mm */,
 				AEC39CB12517263B00529886 /* SortFrameHandler.h */,
+				AEC39CBC2517263B00529886 /* SortFrameHandler.m */,
+				AEC39CBA2517263B00529886 /* AudioFileHandler.h */,
 				AEC39CB22517263B00529886 /* AudioFileHandler.m */,
-				AEC39CB32517263B00529886 /* AudioDecoder.mm */,
+				AEC39CB82517263B00529886 /* PreviewView.h */,
 				AEC39CB42517263B00529886 /* PreviewView.mm */,
+				AEC39CBD2517263B00529886 /* AudioQueueCaptureManager.h */,
 				AEC39CB52517263B00529886 /* AudioQueueCaptureManager.m */,
 				AEC39CB62517263B00529886 /* VideoDecoder.h */,
-				AEC39CB72517263B00529886 /* FFmpegVideoDecoder.h */,
-				AEC39CB82517263B00529886 /* PreviewView.h */,
-				AEC39CB92517263B00529886 /* AVParseHandler.h */,
-				AEC39CBA2517263B00529886 /* AudioFileHandler.h */,
 				AEC39CBB2517263B00529886 /* VideoDecoder.mm */,
-				AEC39CBC2517263B00529886 /* SortFrameHandler.m */,
-				AEC39CBD2517263B00529886 /* AudioQueueCaptureManager.h */,
+				AEC39CB72517263B00529886 /* FFmpegVideoDecoder.h */,
 				AEC39CBE2517263B00529886 /* FFmpegVideoDecoder.mm */,
 			);
 			path = FFMpeg;
