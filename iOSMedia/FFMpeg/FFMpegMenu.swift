@@ -12,7 +12,7 @@ struct FFMpegMenu: View {
     var body: some View {
        
             List{
-                NavigationLink("Audio Queue 音频解编码", destination: AudioDecoderDemo())
+                NavigationLink("AudioQueue 音频解编码", destination: AudioDecoderDemo())
                
                 NavigationLink("VideoBox硬解码", destination: VideoBoxDecodeDemo())
             }.navigationBarTitle(Text("FFMpeg"))
