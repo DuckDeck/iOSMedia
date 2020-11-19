@@ -40,10 +40,12 @@ class AudioDecoderViewController: UIViewController {
     }
     
     @objc func record()  {
+        Toast.showToast(msg: "开始录音")
         AudioQueueCaptureManager.getInstance().startRecordFile()
     }
     
     @objc func stop() {
+        Toast.showToast(msg: "结束录音")
         AudioQueueCaptureManager.getInstance().stopRecordFile()
     }
 

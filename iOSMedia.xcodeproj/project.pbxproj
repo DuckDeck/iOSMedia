@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2026C1B625650A760002A501 /* AudioListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026C1B525650A760002A501 /* AudioListViewController.swift */; };
 		203BF7EB255536AD008C8E24 /* ViewChaos in Frameworks */ = {isa = PBXBuildFile; productRef = 203BF7EA255536AD008C8E24 /* ViewChaos */; };
 		AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681B824245AAA009748E4 /* AppDelegate.swift */; };
 		AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681BA24245AAA009748E4 /* SceneDelegate.swift */; };
@@ -96,6 +97,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2026C1B525650A760002A501 /* AudioListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListViewController.swift; sourceTree = "<group>"; };
 		AEA681B524245AAA009748E4 /* iOSMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA681B824245AAA009748E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA681BA24245AAA009748E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -361,7 +363,6 @@
 				AEBFE9A025161DF6003418A4 /* Library */,
 				AEA681B824245AAA009748E4 /* AppDelegate.swift */,
 				AEA681BA24245AAA009748E4 /* SceneDelegate.swift */,
-				AEA681C124245AAE009748E4 /* Assets.xcassets */,
 				AEA681C324245AAE009748E4 /* LaunchScreen.storyboard */,
 				AEA681C624245AAE009748E4 /* Info.plist */,
 				AEBFE9C425162438003418A4 /* Metal */,
@@ -370,6 +371,7 @@
 				AEC39CFF251728FD00529886 /* Live */,
 				AEBFE9AC25161EA0003418A4 /* Home.swift */,
 				AEBFE9B22516236C003418A4 /* iOSMedia-Bridging-Header.h */,
+				AEA681C124245AAE009748E4 /* Assets.xcassets */,
 			);
 			path = iOSMedia;
 			sourceTree = "<group>";
@@ -713,6 +715,7 @@
 		AEC39CA82517257C00529886 /* FFMpeg */ = {
 			isa = PBXGroup;
 			children = (
+				2026C1B525650A760002A501 /* AudioListViewController.swift */,
 				AEC39D0F2517319500529886 /* AudioDecoderViewController.swift */,
 				AEC39D0C2517318700529886 /* VideoBoxDecodeVideoViewController.swift */,
 				AEC39CAA251725D100529886 /* FFMpegMenu.swift */,
@@ -937,6 +940,7 @@
 				AEC39CE62517263B00529886 /* ShadowDownloader.swift in Sources */,
 				AEC39D0D2517318700529886 /* VideoBoxDecodeVideoViewController.swift in Sources */,
 				AEC39CD92517263B00529886 /* AudioQueueCaptureManager.m in Sources */,
+				2026C1B625650A760002A501 /* AudioListViewController.swift in Sources */,
 				AEC39CE12517263B00529886 /* ShadowPlayBack.swift in Sources */,
 				AEBFE9B72516236D003418A4 /* opencvTool.mm in Sources */,
 				AEC39CE22517263B00529886 /* ShadowRangeManager.swift in Sources */,
@@ -1098,6 +1102,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YCGH6CCXA;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSMedia/Library",
@@ -1132,6 +1137,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YCGH6CCXA;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSMedia/Library",

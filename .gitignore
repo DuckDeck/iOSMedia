@@ -92,3 +92,4 @@ iOSInjectionProject/
 opencv2.framework/
 ffmpeg_ios/
 IJKMediaFramework.framework/
+*.mp4
