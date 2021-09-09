@@ -90,6 +90,6 @@ fastlane/test_output
 iOSInjectionProject/
 *.DS_Store
 opencv2.framework/
-ffmpeg_ios/
+lib/
 IJKMediaFramework.framework/
 *.mp4

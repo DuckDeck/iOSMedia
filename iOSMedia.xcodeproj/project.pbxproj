@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2026C1B625650A760002A501 /* AudioListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026C1B525650A760002A501 /* AudioListViewController.swift */; };
-		203BF7EB255536AD008C8E24 /* ViewChaos in Frameworks */ = {isa = PBXBuildFile; productRef = 203BF7EA255536AD008C8E24 /* ViewChaos */; };
 		AEA681B924245AAA009748E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681B824245AAA009748E4 /* AppDelegate.swift */; };
 		AEA681BB24245AAA009748E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA681BA24245AAA009748E4 /* SceneDelegate.swift */; };
 		AEA681C224245AAE009748E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA681C124245AAE009748E4 /* Assets.xcassets */; };
@@ -314,7 +313,6 @@
 			files = (
 				AEC39C8A2517073D00529886 /* libavutil.a in Frameworks */,
 				AEBFEA9A2516356A003418A4 /* KRProgressHUD in Frameworks */,
-				203BF7EB255536AD008C8E24 /* ViewChaos in Frameworks */,
 				AEBFEA8025162B01003418A4 /* Kingfisher in Frameworks */,
 				AEC39C8D2517073D00529886 /* libavformat.a in Frameworks */,
 				AEBFE9C225162419003418A4 /* CoreMedia.framework in Frameworks */,
@@ -830,7 +828,6 @@
 				AEBFEA8825162B7A003418A4 /* GrandTime */,
 				AEBFEA8D25162D07003418A4 /* SnapKit */,
 				AEBFEA992516356A003418A4 /* KRProgressHUD */,
-				203BF7EA255536AD008C8E24 /* ViewChaos */,
 			);
 			productName = iOSMedia;
 			productReference = AEA681B524245AAA009748E4 /* iOSMedia.app */;
@@ -866,7 +863,6 @@
 				AEBFEA8725162B7A003418A4 /* XCRemoteSwiftPackageReference "GrandTime" */,
 				AEBFEA8C25162D07003418A4 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				AEBFEA982516356A003418A4 /* XCRemoteSwiftPackageReference "KRProgressHUD" */,
-				203BF7E9255536AD008C8E24 /* XCRemoteSwiftPackageReference "ViewChaos" */,
 			);
 			productRefGroup = AEA681B624245AAA009748E4 /* Products */;
 			projectDirPath = "";
@@ -1186,14 +1182,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		203BF7E9255536AD008C8E24 /* XCRemoteSwiftPackageReference "ViewChaos" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DuckDeck/ViewChaos";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.1;
-			};
-		};
 		AEBFEA7E25162B01003418A4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com.cnpmjs.org/onevcat/Kingfisher";
@@ -1229,11 +1217,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		203BF7EA255536AD008C8E24 /* ViewChaos */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 203BF7E9255536AD008C8E24 /* XCRemoteSwiftPackageReference "ViewChaos" */;
-			productName = ViewChaos;
-		};
 		AEBFEA7F25162B01003418A4 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AEBFEA7E25162B01003418A4 /* XCRemoteSwiftPackageReference "Kingfisher" */;

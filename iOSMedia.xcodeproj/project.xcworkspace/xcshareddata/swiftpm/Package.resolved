@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com.cnpmjs.org/onevcat/Kingfisher",
         "state": {
           "branch": null,
-          "revision": "0efb20f022501327f4028aa9bf7cd4a0d390bea0",
+          "revision": "13a9830a5424b1420ea704e75c7671ca1081f54e",
           "version": "5.15.2"
         }
       },
@@ -44,15 +44,6 @@
           "branch": null,
           "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
           "version": "5.0.1"
-        }
-      },
-      {
-        "package": "ViewChaos",
-        "repositoryURL": "https://github.com/DuckDeck/ViewChaos",
-        "state": {
-          "branch": null,
-          "revision": "e52d72d42a2ff52fa911b47e4bd8281b5b3fd6c4",
-          "version": "2.1.1"
         }
       }
     ]
