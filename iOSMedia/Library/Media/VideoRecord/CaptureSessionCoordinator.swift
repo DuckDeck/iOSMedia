@@ -8,7 +8,7 @@
 
 import Foundation
 import AVFoundation
-protocol CaptureSessionCoordinatorDelegate :class{
+protocol CaptureSessionCoordinatorDelegate :AnyObject{
     func coordinatorDidBeginRecording(coordinator:CaptureSessionCoordinator)->Void
     func coordinator(coordinator:CaptureSessionCoordinator,outputFileUrl:URL,error:Error?)->Void
 }

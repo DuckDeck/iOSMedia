@@ -15,7 +15,7 @@
 #import <UIKit/UIKit.h>
 
 
-typedef  void (^imageFrame)(UIImage *);
+typedef  void (^imageFrame)(UIImage *_Nullable);
 
 NS_ASSUME_NONNULL_BEGIN
 

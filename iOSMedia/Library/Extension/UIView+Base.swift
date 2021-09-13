@@ -300,7 +300,7 @@ extension UILabel{
         guard let txt = self.text else {
             return
         }
-        let textSize = (txt as NSString).boundingRect(with: CGSize(width: self.frame.size.width, height: CGFloat(MAXFLOAT)), options: [NSStringDrawingOptions.usesLineFragmentOrigin,NSStringDrawingOptions.truncatesLastVisibleLine,NSStringDrawingOptions.usesFontLeading], attributes: [NSAttributedString.Key.font:self.font], context: nil)
+        let textSize = (txt as NSString).boundingRect(with: CGSize(width: self.frame.size.width, height: CGFloat(MAXFLOAT)), options: [NSStringDrawingOptions.usesLineFragmentOrigin,NSStringDrawingOptions.truncatesLastVisibleLine,NSStringDrawingOptions.usesFontLeading], attributes: [NSAttributedString.Key.font:self.font!], context: nil)
         let margin = (self.frame.size.width - textSize.size.width) / CGFloat(txt.count - 1)
         let attrStr = NSMutableAttributedString(string: txt)
         attrStr.addAttribute(kCTKernAttributeName as NSAttributedString.Key, value: margin, range: NSMakeRange(0, txt.count - 1))

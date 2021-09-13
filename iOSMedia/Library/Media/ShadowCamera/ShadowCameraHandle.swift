@@ -8,7 +8,7 @@
 
 import UIKit
 import AVFoundation
-protocol ShadowCameraHandleDelegate:class {
+protocol ShadowCameraHandleDelegate:AnyObject {
     func captureOutput(output:AVCaptureOutput,didOutput sampleBuffer:CMSampleBuffer,from connection:AVCaptureConnection)
     func captureOutput(output:AVCaptureOutput,didDrop sampleBuffer:CMSampleBuffer,from connection:AVCaptureConnection)
 }
